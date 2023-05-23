@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Atitude Cristã - Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro</h1>
+    <form id="cadastroForm" action="cadastro.php" method="POST">
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="password" name="senha" placeholder="Senha" required>
+      <input type="text" name="nome" placeholder="Nome" required>
+     
+     <input type="text" name="cidade" placeholder="Cidade" required>
+      <input type="text" name="estado" placeholder="Estado" required>
+      <input type="file" name="foto" accept="image/*">
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
